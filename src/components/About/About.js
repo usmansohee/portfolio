@@ -1,10 +1,13 @@
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
+import UpworkIcon from '../../assets/UpworkIcon.png'
+import FiverrIcon from '../../assets/FiverrIcon.png'
+
 import { about } from '../../portfolio'
 import './About.css'
 
 const About = () => {
-  const { name, role, description, resume, social } = about
+  const { name, role, description, resume, socialLinks } = about
 
   return (
     <div className='about center'>
@@ -26,11 +29,11 @@ const About = () => {
           </a>
         )}
 
-        {social && (
+        {socialLinks && (
           <>
-            {social.github && (
+            {socialLinks.github && (
               <a
-                href={social.github}
+                href={socialLinks.github}
                 aria-label='github'
                 className='link link--icon'
               >
@@ -38,13 +41,41 @@ const About = () => {
               </a>
             )}
 
-            {social.linkedin && (
+            {socialLinks.linkedin && (
               <a
-                href={social.linkedin}
+                href={socialLinks.linkedin}
                 aria-label='linkedin'
                 className='link link--icon'
               >
                 <LinkedInIcon />
+              </a>
+            )}
+
+            {socialLinks.fiverr && (
+              <a
+                href={socialLinks.fiverr}
+                aria-label='fiverr'
+                className='link link--icon'
+              >
+                <img
+                  src={FiverrIcon}
+                  alt="Fiverr Icon"
+                  className="icon-img" // Add custom CSS class for consistent sizing if needed
+                />
+              </a>
+            )}
+
+            {socialLinks.upwork && (
+              <a
+                href={socialLinks.upwork}
+                aria-label='upwork'
+                className='link link--icon'
+              >
+                <img
+                  src={UpworkIcon}
+                  alt="Upwork Icon"
+                  className="icon-img" // Add custom CSS class for consistent sizing if needed
+                />
               </a>
             )}
           </>

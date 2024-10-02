@@ -10599,6 +10599,11 @@ tar@^6.0.2:
     mkdirp "^1.0.3"
     yallist "^4.0.0"
 
+tech-stack-icons@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/tech-stack-icons/-/tech-stack-icons-2.1.0.tgz#01a7f1f0caedffe5c52de68f9b1f0ff9ce897301"
+  integrity sha512-6L8WPegruqXfS6U7oLPE2VBCJGXsXW4P97iorZpyI4DWBQxt0m+rLeGHpuu2tWb5jcyrIq1FEfDfron+DMSj/Q==
+
 temp-dir@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/temp-dir/-/temp-dir-1.0.0.tgz#0a7c0ea26d3a39afa7e0ebea9c1fc0bc4daa011d"

@@ -1,5 +1,5 @@
 .skills__list {
-  max-width: 450px;
+  max-width: 1500px;
   width: 95%;
   margin: 0 auto;
   display: flex;
@@ -9,4 +9,11 @@
 
 .skills__list-item {
   margin: 0.5em;
+}
+
+.icon-small {
+  width: 26px;   /* Adjust the size as needed */
+  height: 26px;  /* Adjust the size as needed */
+  display: inline-block;  /* Ensures proper spacing */
+  vertical-align: middle;  /* Aligns the icon with the text */
 }
