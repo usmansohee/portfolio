@@ -19,6 +19,7 @@ const ExperienceContainer = ({ experience }) => {
   const handleClose = () => {
     setOpen(false);
   };
+  console.log(experience)
 
   return (
     <div className='experience'>
@@ -46,7 +47,8 @@ const ExperienceContainer = ({ experience }) => {
       <h6>{experience.position}</h6>
       <p>{experience.from} - {experience.to}</p>
 
-      <p className='experience__description' style={{ marginBottom: '20px' }}>{experience.description}</p>
+      <p className='' style={{ marginTop: '15px' }}>{experience.description}</p>
+      <p className='' style={{ marginBottom: '20px', fontWeight: "" }}>{experience.location}</p>
 
       {experience && (
         <a
@@ -92,6 +94,7 @@ const ExperienceContainer = ({ experience }) => {
 
             {/* Description */}
             <p className='experience__description' style={{ marginBottom: '20px' }}>{experience.description}</p>
+            <p className='experience__description' style={{ marginBottom: '20px' }}>{experience.location}</p>
 
             {/* Responsibilities */}
             <h6>Responsibilities:</h6>
