@@ -10,7 +10,7 @@ import img from '../../assets/companies/fieztech.jpg'
 
 const EducationContainer = ({ education }) => (
   <div className='education'>
-    {console.log(education, `${education.image}`)}
+    {console.log(education, `${education.image}.png`)}
     <img
       // src={`../..${education.icon}.jpg`} // Correctly use template literals
       src={education.image} // Use the icon path directly from the educations array
@@ -28,7 +28,6 @@ const EducationContainer = ({ education }) => (
       className="shadow mb-3"
       alt=""
     />
-
 
     <h5>{education.institute}</h5>
     <p>{education.program}</p>

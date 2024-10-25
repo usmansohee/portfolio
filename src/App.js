@@ -6,6 +6,7 @@ import Projects from './components/Projects/Projects'
 import Skills from './components/Skills/Skills'
 import Experiences from './components/Experiences/Experiences'
 import Educations from './components/Educations/Educations'
+import Feedbacks from './components/Feedbacks/Feedbacks'
 
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import Contact from './components/Contact/Contact'
@@ -25,6 +26,7 @@ const App = () => {
         <Experiences />
         <Projects />
         <Educations />
+        <Feedbacks/>
         <Contact />
       </main>
 

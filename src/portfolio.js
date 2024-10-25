@@ -1,3 +1,41 @@
+// institute
+import pgcImage from './assets/institute/pgc.jpg';
+import ucpImage from './assets/institute/ucp.jpg';
+import vubImage from './assets/institute/vub.jpg';
+
+// companies
+import fieztechImage from './assets/companies/fieztech.jpg';
+import cloudbedrockImage from './assets/companies/cloud_bedrock_llc.jpg';
+import invozoneImage from './assets/companies/invozone.jpg';
+import silverbackaiImage from './assets/companies/silverbackai.jpg';
+import cybernestImage from './assets/companies/cybernest.jpg';
+
+// projects
+import retainooImage from './assets/projects/retainoo.png';
+import appworkcoImage from './assets/projects/appworkco.png';
+import looperinsightsImage from './assets/projects/looperinsights.png';
+import freshprepImage from './assets/projects/freshprep.png';
+import invoteamsImage from './assets/projects/invoteam.png';
+import vintagedomusImage from './assets/projects/vintagedomus.png';
+import z98Image from './assets/projects/z98.png';
+import cloudbedImage from './assets/projects/cloudbed.png';
+
+// feedbacks
+import cloudbedFiverrFeedback from './assets/feedbacks/cloudbedFiverrFeedback.png';
+import vintagedomusFiverrFeedback from './assets/feedbacks/vintagedomusFiverrFeedback.png';
+import z98FiverrFeedback from './assets/feedbacks/z98FiverrFeedback.png';
+import siriconFeedback from './assets/feedbacks/siriconFeedback.png';
+import tschangoFiverrFeedback from './assets/feedbacks/tschangoFiverrFeedback.png';
+import upworkFeedback from './assets/feedbacks/upworkFeedback.png';
+import upworkFeedback1 from './assets/feedbacks/upworkFeedback1.png';
+import martinFreelancerFeedback from './assets/feedbacks/martinFreelancerFeedback.png';
+import nathanFreelancerFeedback from './assets/feedbacks/nathanFreelancerFeedback.png';
+
+// platforms
+import fiverrIcon from './assets/FiverrIcon.png'
+import upworkIcon from './assets/UpworkIcon.png'
+import freelancerIcon from './assets/freelancerIcon.png'
+
 const header = {
   homepage: 'https://rjshkhr.github.io/cleanfolio',
   title: 'USMAN.',
@@ -20,12 +58,68 @@ const about = {
 
 const feedbacks = [
   {
-    name: 'Project 1',
-    position: '',
-    feedback: 'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    platformIcon: '',
-    links: [],
-    images: [],
+    name: 'Jim Hankins',
+    position: 'CEO / Founder - Cloud Bedrock, LLC',
+    feedback: 'Usman did a great job working on migrating a site from Nuxt3 to Phoenix. The project was delivered very quickly, ahead of expectations. Great communication. A pleasure to work with. Highly recommended.',
+    platformIcon: fiverrIcon,
+    links: ['https://www.fiverr.com/usmanahmed905'],
+    images: [cloudbedFiverrFeedback],
+  },
+  {
+    name: 'Valeria',
+    position: 'Vintage Domus',
+    feedback: 'Usman did a great job working on migrating a site from Nuxt3 to Phoenix. The project was delivered very quickly, ahead of expectations. Great communication. A pleasure to work with. Highly recommended.',
+    platformIcon: fiverrIcon,
+    links: ['https://www.fiverr.com/usmanahmed905'],
+    images: [vintagedomusFiverrFeedback],
+  },
+  {
+    name: 'Phil Cook.',
+    position: 'Ottawa Executive Airport',
+    feedback: 'Usman did a great job working on migrating a site from Nuxt3 to Phoenix. The project was delivered very quickly, ahead of expectations. Great communication. A pleasure to work with. Highly recommended.',
+    platformIcon: fiverrIcon,
+    links: ['https://www.fiverr.com/usmanahmed905'],
+    images: [z98FiverrFeedback],
+  },
+  {
+    name: 'Tschango',
+    position: 'Product Owner',
+    feedback: 'Usman did a great job working on migrating a site from Nuxt3 to Phoenix. The project was delivered very quickly, ahead of expectations. Great communication. A pleasure to work with. Highly recommended.',
+    platformIcon: fiverrIcon,
+    links: ['https://www.fiverr.com/usmanahmed905'],
+    images: [tschangoFiverrFeedback],
+  },
+  {
+    name: 'Alex',
+    position: 'Story Candle LLC',
+    feedback: 'Usman did a great job working on migrating a site from Nuxt3 to Phoenix. The project was delivered very quickly, ahead of expectations. Great communication. A pleasure to work with. Highly recommended.',
+    platformIcon: upworkIcon,
+    links: ['https://www.fiverr.com/usmanahmed905'],
+    images: [upworkFeedback],
+  },
+  {
+    name: 'Daniel Blokh',
+    position: 'eRated Inc. (SilverBack.ai)',
+    feedback: 'Usman did a great job working on migrating a site from Nuxt3 to Phoenix. The project was delivered very quickly, ahead of expectations. Great communication. A pleasure to work with. Highly recommended.',
+    platformIcon: upworkIcon,
+    links: ['https://www.fiverr.com/usmanahmed905'],
+    images: [upworkFeedback1],
+  },
+  {
+    name: 'Nathan A.',
+    position: 'Owner - Unique Leverage',
+    feedback: 'Usman did a great job working on migrating a site from Nuxt3 to Phoenix. The project was delivered very quickly, ahead of expectations. Great communication. A pleasure to work with. Highly recommended.',
+    platformIcon: freelancerIcon,
+    links: ['https://www.fiverr.com/usmanahmed905'],
+    images: [nathanFreelancerFeedback],
+  },
+  {
+    name: 'Martin K.',
+    position: 'Owner - Knuthia WIZ',
+    feedback: 'Usman did a great job working on migrating a site from Nuxt3 to Phoenix. The project was delivered very quickly, ahead of expectations. Great communication. A pleasure to work with. Highly recommended.',
+    platformIcon: freelancerIcon,
+    links: ['https://www.fiverr.com/usmanahmed905'],
+    images: [martinFreelancerFeedback],
   },
 ]
 
@@ -37,18 +131,20 @@ const contact = {
 const experiences = [
   {
     company: 'FiezTech Pvt Ltd.',
-    icon: '/assets/companies/fieztech.jpg',
+    icon: fieztechImage,
     position: 'Full-Stack Software Engineer',
     location: '',
     from: 'Mar 2024',
     to: 'Present',
     description: 'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    responsibilities: [],
+    responsibilities: ["Amet asperiores et impedit aliquam consectetur? Voluptates",
+      "Amet asperiores et impedit aliquam consectetur? Voluptates"
+    ],
     stack: ['nodejs', 'reactjs', 'typescript', 'redux', 'jest', 'postgreql', 'mongodb', 'github', 'aws', 'ec2', 'linux', 'digitalocean', 'heroku', 'postman'],
   },
   {
     company: 'Cloud Bedrock, LLC',
-    icon: '/assets/companies/cloud_bedrock_llc.jpg',
+    icon: cloudbedrockImage,
     position: 'Elixir Developer',
     location: '',
     from: 'Sep 2023',
@@ -59,7 +155,7 @@ const experiences = [
   },
   {
     company: 'InvoZone Pvt Ltd.',
-    icon: '/assets/companies/invozone.jpg',
+    icon: invozoneImage,
     position: 'Software Engineer',
     location: '',
     from: 'Aug 2021',
@@ -70,7 +166,7 @@ const experiences = [
   },
   {
     company: 'Silverback.ai',
-    icon: '/assets/companies/silverbackai.png',
+    icon: silverbackaiImage,
     position: 'Software Developer',
     location: '',
     from: 'Nov 2021',
@@ -81,7 +177,7 @@ const experiences = [
   },
   {
     company: 'Cybernest Pvt Ltd.',
-    icon: '/assets/companies/cybernest.jpg',
+    icon: cybernestImage,
     position: 'Associate Software Engineer',
     location: '',
     from: 'Mar 2021',
@@ -98,12 +194,12 @@ const projects = [
     from: 'July 2024',
     to: 'Sept 2023',
     headline: 'AI-Powered hiring software solution for streamlined software development',
-    description: 'internal system',
+    description: 'AI-Powered hiring software solution for streamlined software development',
     features: [],
     responsibilities: [],
     associatedWith: 'FiezTech Pvt Ltd',
     stack: ['rails', 'reactjs', 'redux', 'nodejs', 'elixir', 'bootstrap', 'gitlab', 'postgresql', 'microservices', 'aws', 'ec2', 'rest api', 'jira', 'postman', 'slack'],
-    images: [],
+    images: [cloudbedImage],
     domains: ['https://invoteams.com/'],
     sourceCode: '',
   },
@@ -112,12 +208,12 @@ const projects = [
     from: 'May 2024',
     to: 'July 2023',
     headline: 'AI-Powered hiring software solution for streamlined software development',
-    description: 'internal system',
+    description: 'AI-Powered hiring software solution for streamlined software developmentm',
     features: [],
     responsibilities: [],
     associatedWith: 'FiezTech Pvt Ltd',
     stack: ['rails', 'reactjs', 'redux', 'nodejs', 'elixir', 'bootstrap', 'gitlab', 'postgresql', 'microservices', 'aws', 'ec2', 'rest api', 'jira', 'postman', 'slack'],
-    images: [],
+    images: [z98Image],
     domains: ['https://invoteams.com/'],
     sourceCode: '',
   },
@@ -126,12 +222,12 @@ const projects = [
     from: 'Sep 2023',
     to: 'May 2024',
     headline: 'AI-Powered hiring software solution for streamlined software development',
-    description: 'internal system',
+    description: 'AI-Powered hiring software solution for streamlined software development',
     features: [],
     responsibilities: [],
     associatedWith: 'FiezTech Pvt Ltd',
     stack: ['rails', 'reactjs', 'redux', 'nodejs', 'elixir', 'bootstrap', 'gitlab', 'postgresql', 'microservices', 'aws', 'ec2', 'rest api', 'jira', 'postman', 'slack'],
-    images: [],
+    images: [vintagedomusImage],
     domains: ['https://invoteams.com/'],
     sourceCode: '',
   },
@@ -140,12 +236,12 @@ const projects = [
     from: 'Mar 2023',
     to: 'Sep 2023',
     headline: 'AI-Powered hiring software solution for streamlined software development',
-    description: 'internal system',
+    description: 'AI-Powered hiring software solution for streamlined software development',
     features: [],
     responsibilities: [],
     associatedWith: 'InvoZone Pvt Ltd.',
     stack: ['rails', 'reactjs', 'redux', 'nodejs', 'elixir', 'bootstrap', 'gitlab', 'postgresql', 'microservices', 'aws', 'ec2', 'rest api', 'jira', 'postman', 'slack'],
-    images: [],
+    images: [invoteamsImage],
     domains: ['https://invoteams.com/'],
     sourceCode: '',
   },
@@ -159,7 +255,7 @@ const projects = [
     responsibilities: [],
     associatedWith: 'InvoZone Pvt Ltd.',
     stack: ['rails', 'vuejs', 'bootstrap', 'bitbucket', 'postgresql', 'redis', 'aws', 'ec2', 'rest api', 'circleci', 'rspec', 'jira', 'postman', 'slack'],
-    images: [],
+    images: [freshprepImage],
     domains: ['	https://www.freshprep.ca/'],
     sourceCode: '',
   },
@@ -173,7 +269,7 @@ const projects = [
     responsibilities: [],
     associatedWith: 'InvoZone Pvt Ltd.',
     stack: ['rails', 'vuejs', 'bootstrap', 'github', 'postgresql', 'redis', 'aws', 'ec2', 'docker', 'rest api', 'circleci', 'rspec', 'jira', 'postman', 'slack'],
-    images: [],
+    images: [looperinsightsImage],
     domains: ['https://looperinsights.com/'],
     sourceCode: '',
   },
@@ -187,7 +283,7 @@ const projects = [
     responsibilities: [],
     associatedWith: 'InvoZone Pvt Ltd.',
     stack: ['elixir', 'phoenix', 'nodejs', 'reactjs', 'redux', 'tailwindcss', 'github', 'postgresql', 'redis', 'aws', 'ec2', 'rest api', 'honeybadger', 'jest', 'jira', 'postman', 'slack'],
-    images: [],
+    images: [appworkcoImage],
     domains: ['	https://appworkco.com/', '	Client domain: https://residents.apprent.com/', '	Admin domain: https://administration.apprent.com/'],
     sourceCode: '',
   },
@@ -201,9 +297,9 @@ const projects = [
     responsibilities: [],
     associatedWith: 'Cybernest Pvt Ltd.',
     stack: ['ruby', 'rails', 'javascript', 'reactjs', 'html5', 'css3', 'mysql', 'git', 'jira', 'postman'],
-    images: [],
+    images: [retainooImage],
     domains: ['https://retainoo.com/'],
-    sourceCode: 'https://github.com',
+    sourceCode: '',
   },
 ]
 
@@ -214,7 +310,7 @@ const educations = [
     year: '2025',
     grade: '',
     location: 'Brussels, Belgium',
-    image: '',
+    image: vubImage,
     link: '',
     description: ''
   },
@@ -224,7 +320,7 @@ const educations = [
     year: '2021',
     grade: 'A',
     location: 'Lahore, Pakistan',
-    image: '',
+    image: ucpImage,
     link: '',
     description: ''
   },
@@ -234,7 +330,7 @@ const educations = [
     year: '2016',
     grade: '',
     location: 'Lahore, Pakistan',
-    image: '',
+    image: pgcImage,
     link: '',
     description: ''
   }
