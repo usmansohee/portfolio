@@ -36,17 +36,20 @@ import fiverrIcon from './assets/FiverrIcon.png'
 import upworkIcon from './assets/UpworkIcon.png'
 import freelancerIcon from './assets/freelancerIcon.png'
 
+import avatar from './assets/avatar.png'
+
 const header = {
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
+  homepage: '/',
   title: 'USMAN.',
 }
 
 const about = {
   name: 'Usman Ahmed',
   role: 'Full-Stack Software Engineer',
-  description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+  description: '',
+  avatar,
+  // description: 'Empowering innovation through sustainable and scalable full-stack development.',
+  resume: 'https://example.com', // it is handeled in about.js
   socialLinks: {
     linkedin: 'https://www.linkedin.com/in/oxm-ahmed/',
     github: 'https://github.com/usmansohee',
@@ -392,10 +395,14 @@ const skills = {
       name: "TypeScript",
       icon: "typescript"
     },
-    // {
-    //   name: "JavaScript",
-    //   icon: "js"
-    // },
+    {
+      name: "JavaScript",
+      icon: "js"
+    },
+    {
+      name: "NPM",
+      icon: "npm"
+    },
     {
       name: "Elixir",
       icon: "elixir"
